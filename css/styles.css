@@ -1,8 +1,8 @@
 /*my Stylesheet*/
-* { 
-		box-sizing: border-box;
 
-	}
+  body {
+    padding: 20px;
+  }
 	.section-heading {
        width: 100px;
        height: 50px;
@@ -15,12 +15,13 @@
 	}
 	.section {
 		width: 100px;
-		height: 150px;
+		height: 175px;
 		border: 5px solid black;
 	}
     p {
     	margin-top:50px;
     	font-family: inherit,sans-serif;
+      padding: 6px;
     }
 	#section1 {
       	background-color: #00FFFF;
@@ -34,6 +35,10 @@
       	background-color: #FFFF00;
       	margin-top: 5px;
       }
+  * { 
+    box-sizing: border-box;
+
+  }
 	@media (min-width: 992px) {
       .col-lg-4
       {
