@@ -1,0 +1,72 @@
+/*my Stylesheet*/
+* { 
+		box-sizing: border-box;
+
+	}
+	.section-heading {
+       width: 100px;
+       height: 50px;
+       border: 5px solid green;
+       background-color: white;
+       float: right;
+       text-align: center;
+       padding: 7px;
+       position: relative;
+	}
+	.section {
+		width: 100px;
+		height: 150px;
+		border: 5px solid black;
+	}
+    p {
+    	margin-top:50px;
+    	font-family: inherit,sans-serif;
+    }
+	#section1 {
+      	background-color: #00FFFF;
+      	margin-top: 5px;
+      }
+      #section2 {
+      	 background-color: #FF00FF;
+      	 margin-top: 5px;
+      }
+      #section3 {
+      	background-color: #FFFF00;
+      	margin-top: 5px;
+      }
+	@media (min-width: 992px) {
+      .col-lg-4
+      {
+      	float: left;
+      	border: 5px solid black;
+      }
+      .col-lg-4 {
+      	width:33.33% ;
+      }
+      
+	}
+	@media (min-width: 768px) and (max-width: 991px) {
+		.col-md-6,.col-md-12
+      {
+      	float: left;
+      	border: 5px solid black;
+      }
+      .col-md-6 {
+      	width:50% ;
+      }
+      .col-md-12 {
+      	width:100% ;
+      }
+		
+	}
+	@media (max-width: 767px) {
+	  .col-sd-12
+      {
+      	float: left;
+      	border: 5px solid black;
+      }
+      .col-sd-12 {
+      	width:100% ;
+      }
+       
+	}
